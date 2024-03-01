@@ -43,6 +43,7 @@ type RawTransaction struct {
 	Confirmations uint64 `json:"confirmations,omitempty"`
 	Time          int64  `json:"time,omitempty"`
 	Blocktime     int64  `json:"blocktime,omitempty"`
+	Weight        uint64 `json:"weight,omitempty"`
 }
 
 // TransactionDetails represents details about a transaction
